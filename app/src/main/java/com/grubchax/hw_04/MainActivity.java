@@ -18,6 +18,22 @@ public class MainActivity extends ActionBarActivity {
     String[] name = new String[10];
     String[] password = new String[10];
     String[] email = new String[10];
+    
+    /**
+    Вместо 3х массивов лучше использовать массив объектов
+    
+    например
+    
+    class User{
+        
+    public String name;
+        public String passw;
+        public String email;
+    }
+    
+    User[] users = new User[10];
+    
+    */
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
